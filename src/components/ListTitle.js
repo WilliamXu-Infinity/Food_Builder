@@ -12,7 +12,7 @@ const ListTitle = props => {
 
   return (
     <div className="topping-list-title">
-      Prize: {Math.round(totalMoney*100)/100}
+      Price: {Math.round(totalMoney*100)/100}
     </div>
   );
 };

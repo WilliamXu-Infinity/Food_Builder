@@ -11,3 +11,6 @@ Run `npm i` to install all the packages needed
 
 ## 2. Run project
 Run `npm start` to start project.
+
+![Screen Shot](https://github.com/WilliamXuFire/Food-Builder/blob/master/public/Screen%20Shot.png)
+

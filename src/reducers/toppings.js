@@ -73,7 +73,6 @@ const login = (state = initialState, action) => {
   const { type, payload } = action;
   switch (type) {
     case Types.CHANGE_TOPPING:
-      console.log("triggered, CHANGE_TOPPING")
       return { ...state, toppingList: [ 
         ...state.toppingList.slice(0, payload), 
         {...state.toppingList[payload], added: !state.toppingList[payload].added}, 
@@ -81,7 +80,6 @@ const login = (state = initialState, action) => {
       ]}
 
     case Types.CHANGE_TORTILLA: 
-      console.log("triggered, CHANGE_TORTILLA")
       return { ...state, tortillasList: [ 
         ...state.tortillasList.slice(0, payload), 
         {...state.tortillasList[payload], added: !state.tortillasList[payload].added}, 

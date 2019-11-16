@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <div className="body">
-        <h1 className="title-body">Builder your own burrito</h1>
+        <h1 className="title-body">Build your own Burrito</h1>
         <div className="builder-body">
           <FoodBox/>
           <ToppingList/>

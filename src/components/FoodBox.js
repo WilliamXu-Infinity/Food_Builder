@@ -10,7 +10,6 @@ const FoodBox = props => {
     <div className="food-box-body">
       {foodMap && foodMap.map((item, index) => {
         const { imgUrl, added, name } = item
-        console.log("added: ", name, added)
         return (
           added && <img key={index} className="food-box-image" src={imgUrl} height="400" width="399"/>
         )

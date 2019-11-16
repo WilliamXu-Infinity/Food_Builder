@@ -9,11 +9,13 @@ class App extends Component {
 
   render() {
     return (
-      <div className="builder-body">
-        <FoodBox/>
-        <ToppingList/>
+      <div className="body">
+        <h1 className="title-body">Builder your own burrito</h1>
+        <div className="builder-body">
+          <FoodBox/>
+          <ToppingList/>
+        </div>
       </div>
-      
     );
   }
 }

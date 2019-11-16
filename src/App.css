@@ -3,11 +3,16 @@
   display: flex;
   width: 800px;
   margin: auto;
-  margin-top: 100px;
+  border: 1px solid #696969;
 }
 
 .title-body {
-  height: 100px;
+  height: 50px;
+  background: #006491;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 5px 0 0 0;
 }
 
 .builder-body {
@@ -29,7 +34,7 @@
 .topping-list-body {
   width: 400px;
   height: 400px;
-  border: 1px solid #696969;
+  border-left: 1px solid #696969;
   z-index: 100;
 }
 
